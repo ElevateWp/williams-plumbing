@@ -11,7 +11,7 @@ import { createMetadata } from '@/lib/seo';
 export const metadata: Metadata = createMetadata({
   title: 'Contact and Service Area',
   description:
-    'Contact Sullivans CP Plumbing on 0412 725 332 to discuss plumbing services and repairs.',
+    'Contact Williams Plumbing Port Fairy on +61 447 224 522 to discuss plumbing services and repairs.',
   pathname: '/contact/',
 });
 
@@ -31,9 +31,9 @@ export default function ContactPage() {
                 <span className="font-body text-13 text-forest-ink/60 block mb-3 uppercase tracking-wider font-medium">
                   Contact & Quotes
                 </span>
-                <WordRevealH1 text="Talk to the Sullivans CP Plumbing team." />
+                <WordRevealH1 text="Talk to the Williams Plumbing Port Fairy team." />
                 <p className="font-body text-17 md:text-21 text-forest-ink/90 leading-relaxed mt-6 max-w-2xl">
-                  Call us to discuss plumbing work, plumbing repairs or plumbing repairs.
+                  Call Aaron to discuss plumbing, bathroom work or another home project.
                 </p>
               </AnimateOnScroll>
             </div>
@@ -76,19 +76,14 @@ export default function ContactPage() {
                           {CLINIC_INFO.contact.phone}
                         </a>
                       </div>
-                      <span className="font-body text-13 text-forest font-medium">Plumbing enquiries</span>
+                      <span className="font-body text-13 text-forest font-medium">Call Aaron directly</span>
                     </div>
 
                     {/* Phone */}
                     <div className="py-5 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
                       <div>
-                        <span className="font-body text-13 text-forest-ink/60 block">Phone</span>
-                        <a
-                          href={`tel:${CLINIC_INFO.contact.phone.replace(/[^0-9+]/g, '')}`}
-                          className="font-display text-21 text-forest hover:underline"
-                        >
-                          {CLINIC_INFO.contact.phone}
-                        </a>
+                        <span className="font-body text-13 text-forest-ink/60 block">Address</span>
+                        <span className="font-display text-17 text-forest">84 Regent St, Port Fairy VIC 3284</span>
                       </div>
                       <span className="font-body text-13 text-forest-ink/60">Call to discuss availability</span>
                     </div>
@@ -110,7 +105,7 @@ export default function ContactPage() {
                     {CLINIC_INFO.primaryLocation.directions}
                   </address>
                   <div className="p-4 bg-mist/40 border-l-2 border-forest font-body text-13 text-forest-ink/80 leading-relaxed">
-                    Call to confirm the service area and availability.
+                    Based in Port Fairy. Call to confirm availability for your property.
                   </div>
                 </div>
               </AnimateOnScroll>
@@ -145,7 +140,7 @@ export default function ContactPage() {
                       {CLINIC_INFO.name}
                     </h3>
                     <p className="font-body text-13 text-paper/80 leading-relaxed">
-                    Call to confirm service availability for your property.
+                    Based at 84 Regent St, Port Fairy VIC 3284.
                     </p>
                   </div>
 

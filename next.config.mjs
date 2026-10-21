@@ -4,10 +4,14 @@ const nextConfig = {
   trailingSlash: true,
   async redirects() {
     return [
-      { source: '/general-plumbing', destination: '/plumbing-maintenance-repairs', permanent: true },
-      { source: '/plumbing-repairs', destination: '/plumbing-maintenance-repairs', permanent: true },
-      { source: '/hot-water-systems', destination: '/hot-water-service-maintenance-installations', permanent: true },
-      { source: '/blocked-drains', destination: '/plumbing-maintenance-repairs', permanent: true },
+      { source: '/general-plumbing', destination: '/plumbing-repairs', permanent: true },
+      { source: '/plumbing-maintenance-repairs', destination: '/plumbing-repairs', permanent: true },
+      { source: '/toilet-installations', destination: '/bathroom-renovations', permanent: true },
+      { source: '/hot-water-service-maintenance-installations', destination: '/hot-water-systems', permanent: true },
+      { source: '/metal-roofing', destination: '/pergola-roofing', permanent: true },
+      { source: '/gutters-downpipes', destination: '/plumbing-repairs', permanent: true },
+      { source: '/gas-appliance-installations', destination: '/plumbing-repairs', permanent: true },
+      { source: '/blocked-drains', destination: '/plumbing-repairs', permanent: true },
     ];
   },
   images: {

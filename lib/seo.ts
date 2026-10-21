@@ -84,6 +84,14 @@ export function generateLocalBusinessSchema() {
     } } : {}),
     openingHoursSpecification: CLINIC_INFO.schedule
       .flatMap((item) => {
+        if (item.hours === 'Open 24 hours' && item.day === 'Every day') {
+          return [{
+            '@type': 'OpeningHoursSpecification',
+            dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+            opens: '00:00',
+            closes: '23:59',
+          }];
+        }
         const range = item.hours.match(/(\d{1,2}):(\d{2})\s*(AM|PM)[–-](\d{1,2}):(\d{2})\s*(AM|PM)/i);
         if (!range) return [];
         const to24Hour = (hourText: string, minuteText: string, meridiem: string) => {

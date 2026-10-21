@@ -21,7 +21,7 @@ export default function DentistCard({ dentist, offsetY = false }: DentistCardPro
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        {/* Sullivans CP Plumbing logo */}
+        {/* Williams Plumbing Port Fairy logo */}
         <div className="relative w-full aspect-[4/5] bg-paper overflow-hidden border border-mist mb-5 rounded-none shadow-sm">
           {/* Full logo stays visible inside the profile frame */}
           <Image

@@ -11,17 +11,17 @@ import { generateLocalBusinessSchema } from '@/lib/seo';
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
   title: {
-    default: 'Sullivans CP Plumbing | Mornington Plumbing & Gas Services',
+    default: 'Williams Plumbing Port Fairy | Local Plumbing Services',
     template: '%s',
   },
   description:
-    'Contact Sullivans CP Plumbing in Mornington, VIC for plumbing, roofing and gas appliance services. Call 0412 725 332.',
+    'Contact Williams Plumbing Port Fairy for plumbing and home project work in Port Fairy, VIC. Call +61 447 224 522.',
   keywords: [
-    'Sullivans CP Plumbing',
-    'plumbing services',
-    'plumbing repairs',
+    'Williams Plumbing Port Fairy',
+    'Port Fairy plumber',
+    'bathroom refits',
   ],
-  authors: [{ name: 'Sullivans CP Plumbing' }],
+  authors: [{ name: 'Williams Plumbing Port Fairy' }],
   icons: {
     icon: [
       { url: '/favicon.png', sizes: '32x32', type: 'image/png' },
@@ -47,7 +47,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="bg-paper text-forest-ink min-h-screen flex flex-col selection:bg-[#FCE3E7] selection:text-[#202124]">
+      <body className="bg-paper text-forest-ink min-h-screen flex flex-col selection:bg-[#D9F3F1] selection:text-[#18343A]">
         <PagePreloader />
         <SiteTextReveal />
         <JsonLd data={generateLocalBusinessSchema()} />

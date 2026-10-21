@@ -5,20 +5,20 @@ import AnimateOnScroll from '@/components/motion/AnimateOnScroll';
 
 const REASONS = [
   {
-    title: 'Clear conversation',
-    description: 'Discuss your plumbing issue and the work you need directly with the team.',
+    title: 'Direct communication',
+    description: 'Customers mention clear communication throughout the work.',
   },
   {
-    title: 'Discuss the scope',
-    description: 'Ask about the timing and scope for the plumbing work at your property.',
+    title: 'Efficient, professional service',
+    description: 'Reviews describe Aaron as efficient and professional.',
   },
   {
-    title: 'Plan the next step',
-    description: 'Talk through the work, quote and next steps before you decide how to proceed.',
+    title: 'Attention to detail',
+    description: 'From a hand-built outdoor shower to a bathroom refit, the work is planned around your property.',
   },
   {
     title: 'A range of property services',
-    description: 'The team can discuss plumbing, hot water, metal roofing, gutters and gas appliance installations.',
+    description: 'Ask Aaron about general plumbing, bathroom refits, hot water systems, outdoor showers, split-system work and pergola roofing.',
   },
 ];
 
@@ -72,7 +72,7 @@ export default function HomeWhyUs() {
                       className="object-cover"
                     />
                   </MediaParallax>
-                  <div className="absolute bottom-3 left-3 bg-[#202124]/90 backdrop-blur-sm text-paper font-body text-12 px-3 py-1 font-medium">
+                  <div className="absolute bottom-3 left-3 bg-[#18343A]/90 backdrop-blur-sm text-paper font-body text-12 px-3 py-1 font-medium">
                     Plumbing and plumbing repairs
                   </div>
                 </div>
@@ -87,7 +87,7 @@ export default function HomeWhyUs() {
                   />
                 </div>
                 {/* Plumbing repair detail */}
-                <div className="col-span-2 sm:col-span-1 relative aspect-square bg-[#F5F5F5] overflow-hidden border border-mist shadow-sm">
+                <div className="col-span-2 sm:col-span-1 relative aspect-square bg-[#F2FAFA] overflow-hidden border border-mist shadow-sm">
                   <Image
                     src="/images/plumbing-repair.jpg"
                     alt="Plumber repairing pipework"
@@ -95,7 +95,7 @@ export default function HomeWhyUs() {
                     sizes="(max-width: 640px) 100vw, 25vw"
                     className="object-cover object-top"
                   />
-                  <div className="absolute bottom-0 left-0 right-0 bg-[#202124]/80 text-paper font-body text-12 px-3 py-2 text-center">
+                  <div className="absolute bottom-0 left-0 right-0 bg-[#18343A]/80 text-paper font-body text-12 px-3 py-2 text-center">
                      Plumbing repairs
                   </div>
                 </div>

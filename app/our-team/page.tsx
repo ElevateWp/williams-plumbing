@@ -9,7 +9,7 @@ import { createMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = createMetadata({
   title: 'Our Team',
-  description: 'Meet the Sullivans CP Plumbing team. Call 0412 725 332 to discuss your plumbing needs.',
+  description: 'Meet Aaron Williams and learn about the plumbing and property projects he works on in Port Fairy.',
   pathname: '/our-team/',
 });
 
@@ -20,9 +20,9 @@ export default function TeamPage() {
         <div className="mx-auto max-w-site px-6 md:px-12">
           <Breadcrumbs items={[{ name: 'Our Team', path: '/our-team/' }]} />
           <div className="mt-8 max-w-3xl">
-            <span className="mb-3 block font-body text-13 font-medium uppercase tracking-wider text-brand">Sullivans CP Plumbing</span>
-            <WordRevealH1 text="Meet the Sullivans CP Plumbing team." />
-            <p className="mt-6 font-body text-17 leading-relaxed text-forest-ink/85 md:text-21">Sullivans CP Plumbing provides plumbing services and repairs. Call to discuss the work you need.</p>
+            <span className="mb-3 block font-body text-13 font-medium uppercase tracking-wider text-brand">Williams Plumbing Port Fairy</span>
+            <WordRevealH1 text="Meet Aaron Williams." />
+            <p className="mt-6 font-body text-17 leading-relaxed text-forest-ink/85 md:text-21">Aaron helps Port Fairy households with plumbing and home projects, with a focus on efficient service, clear communication and careful workmanship.</p>
           </div>
         </div>
       </section>
@@ -31,7 +31,7 @@ export default function TeamPage() {
         <div className="mx-auto flex max-w-site flex-col items-center gap-12 px-6 md:px-12">
           <div className="w-full max-w-3xl">
             <h2 className="font-display text-33 text-forest-ink md:text-41">Your project, clearly explained.</h2>
-            <p className="mt-4 font-body text-15 leading-relaxed text-forest-ink/80">The Sullivans CP Plumbing team provides clear communication about the work planned and completed.</p>
+            <p className="mt-4 font-body text-15 leading-relaxed text-forest-ink/80">Customer reviews highlight Aaron’s communication, professional service and attention to detail.</p>
           </div>
           <div className="w-full max-w-sm">
             <div className="grid grid-cols-1">

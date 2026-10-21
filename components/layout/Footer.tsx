@@ -14,7 +14,7 @@ export default function Footer() {
               <div className="w-14 h-14 sm:w-16 sm:h-16 bg-paper rounded-xl p-2 flex items-center justify-center flex-shrink-0 shadow-md">
                 <Image
                   src="/images/logo.png"
-                  alt="Sullivans CP Plumbing logo"
+                  alt="Williams Plumbing Port Fairy logo"
                   width={60}
                   height={60}
                   className="object-contain w-full h-full"
@@ -22,18 +22,18 @@ export default function Footer() {
               </div>
               <div className="flex flex-col">
                 <span className="font-display text-24 md:text-30 font-medium leading-tight">
-                  Sullivans CP Plumbing
+                  Williams Plumbing Port Fairy
                 </span>
                 <span className="font-body text-13 text-paper/70 font-medium">
-                  Plumbing · Roofing · Gas
+                  Plumbing · Bathrooms · Outdoor projects
                 </span>
               </div>
             </div>
             <p className="font-body text-16 text-paper/80 leading-relaxed max-w-xl">
-              Plumbing, roofing and gas appliance services across Mornington, VIC.
+              Plumbing and property project work in Port Fairy, Victoria.
             </p>
             <div className="mt-6 flex flex-wrap gap-4 text-13 text-paper/60">
-              <span>0412 725 332</span>
+              <span>+61 447 224 522</span>
               {CLINIC_INFO.contact.email && <a href={`mailto:${CLINIC_INFO.contact.email}`} className="hover:text-paper">{CLINIC_INFO.contact.email}</a>}
             </div>
           </div>
@@ -44,7 +44,7 @@ export default function Footer() {
                 Plumbing services
               </span>
               <p className="font-body text-15 text-paper/90 mb-4">
-                Need plumbing, roofing or gas appliance work? Contact our team.
+                Planning a plumbing, bathroom or outdoor project? Get in touch with Aaron.
               </p>
               <div className="flex flex-wrap items-center gap-4">
                 <a
@@ -129,7 +129,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/blog/" className="text-paper/80 hover:text-lime transition-colors">
-                  Plumbing Advice
+                  Project Tips
                 </Link>
               </li>
               <li>
@@ -184,7 +184,7 @@ export default function Footer() {
           </div>
           <div className="flex items-center gap-6">
             <span>, </span>
-            <span>Sullivans CP Plumbing</span>
+            <span>Williams Plumbing Port Fairy</span>
           </div>
         </div>
       </div>

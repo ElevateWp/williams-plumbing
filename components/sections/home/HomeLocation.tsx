@@ -30,7 +30,7 @@ export default function HomeLocation() {
                   {CLINIC_INFO.name}
                 </h3>
                 <p className="font-body text-15 md:text-17 text-forest-ink/90 leading-relaxed mb-4">
-                  Call to discuss your plumbing needs and confirm service availability.
+                  Williams Plumbing is based at 84 Regent St, Port Fairy. Call to discuss your project and confirm availability.
                 </p>
                 {CLINIC_INFO.primaryLocation.landmarks && (
                   <p className="font-body text-13 text-forest-ink/70 leading-relaxed">
@@ -39,7 +39,7 @@ export default function HomeLocation() {
                 )}
                 <div className="flex flex-wrap gap-2 mt-4">
                   {CLINIC_INFO.identityHighlights.map((highlight) => (
-                    <span key={highlight} className="bg-[#F5F5F5] border border-[#E0E2E5] px-3 py-1.5 text-12 text-[#202124]">
+                    <span key={highlight} className="bg-[#F2FAFA] border border-[#D9E7E7] px-3 py-1.5 text-12 text-[#18343A]">
                       {highlight}
                     </span>
                   ))}
@@ -91,7 +91,7 @@ export default function HomeLocation() {
                     className="object-cover"
                 />
                 <div className="absolute bottom-3 left-3 bg-paper/95 backdrop-blur-sm text-forest-ink font-body text-13 px-3 py-1 font-medium border border-mist/50">
-                  Sullivans CP Plumbing
+                  Williams Plumbing Port Fairy
                 </div>
               </div>
             </AnimateOnScroll>
@@ -103,10 +103,10 @@ export default function HomeLocation() {
                     Plumbing services
                   </span>
                   <h3 className="font-display text-21 text-forest-ink mb-2">
-                    General plumbing, repairs, hot water and drains
+                    Plumbing, bathroom and outdoor projects
                   </h3>
                   <p className="font-body text-13 text-forest-ink/80 mb-3 leading-relaxed">
-                    Call the team to discuss your property, the plumbing issue and suitable next steps.
+                    Call Aaron to discuss your property and the work you have in mind.
                   </p>
                   <div className="flex items-center gap-2 text-13 font-body text-forest">
                     <span className="w-2 h-2 rounded-full bg-forest animate-pulse" />

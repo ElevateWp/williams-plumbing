@@ -67,7 +67,7 @@ export default function SingleDentistPage({ params }: DentistProfileProps) {
         <div className="max-w-site mx-auto px-6 md:px-12">
           <Breadcrumbs
             items={[
-              { name: 'Sullivans CP Plumbing team', path: '/our-team/' },
+              { name: 'Williams Plumbing Port Fairy team', path: '/our-team/' },
               { name: dentist.name, path: `/our-team/${dentist.slug}/` },
             ]}
           />

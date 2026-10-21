@@ -7,19 +7,19 @@ import { CLINIC_INFO } from '@/lib/clinic-data';
 
 const HOME_FAQS: AccordionItem[] = [
   {
-    question: 'What plumbing services can I ask about?',
-    answer: 'Discuss plumbing maintenance and repairs, toilet installations, hot water services, roofing, gutters or gas appliance installations with the team.',
+    question: 'What work can I ask about?',
+    answer: 'Ask Aaron about general plumbing, bathroom refits, hot water system replacement, outdoor showers, split-system air conditioning work or pergola roofing.',
     relatedLink: { href: '/services/', label: 'Explore our services →' },
   },
   {
     question: 'Do you cover my area?',
-    answer: 'Call the team to confirm service availability for your property.',
+    answer: 'Williams Plumbing is based at 84 Regent St, Port Fairy. Call to confirm whether your property is within the service area.',
     relatedLink: { href: '/contact/', label: 'Contact our team →' },
   },
   {
-    question: 'Do you carry out plumbing repairs?',
-    answer: 'Yes. Sullivans CP Plumbing carries out plumbing repairs. Call to discuss your property and the work required.',
-    relatedLink: { href: '/plumbing-maintenance-repairs/', label: 'Explore plumbing repairs →' },
+    question: 'Can you help with a bathroom renovation?',
+    answer: 'Aaron has refitted bathrooms and can discuss plumbing work for your renovation.',
+    relatedLink: { href: '/bathroom-renovations/', label: 'Explore bathroom refits →' },
   },
   {
     question: 'How do I request a quote?',

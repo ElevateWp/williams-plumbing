@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: BlogPostProps): Promise<Metad
   if (!post) return {};
 
   return createMetadata({
-    title: `${post.title} | Plumbing Advice`,
+    title: `${post.title} | Project Tips`,
     description: post.excerpt,
     pathname: `/blog/${post.slug}/`,
     image: post.leadImage,
@@ -62,7 +62,7 @@ export default function SingleBlogPage({ params }: BlogPostProps) {
     dateModified: post.lastUpdated,
     author: {
       '@type': 'Person',
-      name: author?.name || 'Equipe Sullivans CP Plumbing',
+      name: author?.name || 'Equipe Williams Plumbing Port Fairy',
     },
     publisher: {
       '@type': 'Organization',
@@ -86,7 +86,7 @@ export default function SingleBlogPage({ params }: BlogPostProps) {
         <div className="max-w-site mx-auto px-6 md:px-12">
           <Breadcrumbs
             items={[
-              { name: 'Plumbing Advice', path: '/blog/' },
+              { name: 'Project Tips', path: '/blog/' },
               { name: post.category, path: '/blog/' },
               { name: post.title, path: `/blog/${post.slug}/` },
             ]}
@@ -213,7 +213,7 @@ export default function SingleBlogPage({ params }: BlogPostProps) {
       {relatedTrackItems.length > 0 && (
         <PinnedHorizontalTrack
           items={relatedTrackItems}
-          title="Related Plumbing Advice"
+          title="Related Project Tips"
         />
       )}
 
@@ -223,7 +223,7 @@ export default function SingleBlogPage({ params }: BlogPostProps) {
           <AnimateOnScroll animation="fade-right" duration={0.8}>
             <div>
               <span className="font-body text-13 text-lime uppercase tracking-wider block mb-2 font-medium">
-                Plumbing Advice
+                Project Tips
               </span>
               <h2 className="font-display text-33 md:text-41 text-paper">
                 Discuss Your Plumbing Plans with Our Team

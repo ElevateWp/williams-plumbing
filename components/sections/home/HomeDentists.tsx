@@ -15,7 +15,7 @@ export default function HomeDentists() {
                 Our Team
               </span>
               <h2 className="font-display text-33 md:text-41 text-forest-ink">
-                Meet the Sullivans CP Plumbing team
+                Meet the Williams Plumbing Port Fairy team
               </h2>
             </div>
             <Link

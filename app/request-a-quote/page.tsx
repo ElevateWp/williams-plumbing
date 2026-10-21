@@ -11,7 +11,7 @@ import { createMetadata } from '@/lib/seo';
 export const metadata: Metadata = createMetadata({
   title: 'Request a Plumbing Quote',
   description:
-    'Request a quote for plumbing services or repairs from Sullivans CP Plumbing. Call 0412 725 332.',
+    'Request a quote for plumbing services or repairs from Williams Plumbing Port Fairy. Call +61 447 224 522.',
   pathname: '/request-a-quote/',
 });
 
@@ -34,7 +34,7 @@ const BOOKING_STEPS = [
   {
     step: 4,
     title: 'Plumbing Work',
-    description: 'The Sullivans CP Plumbing team completes the agreed work at your property.',
+    description: 'The Williams Plumbing Port Fairy team completes the agreed work at your property.',
   },
 ];
 
@@ -64,7 +64,7 @@ export default function BookAppointmentPage() {
                 <div className="p-6 bg-paper border border-mist space-y-3 font-body text-13 text-forest-ink/80 shadow-sm">
                   <span className="font-medium text-forest block">Call our team:</span>
                   <p className="text-forest-ink/70">
-                    Prefer to speak with us directly? Call during opening hours.
+                    Prefer to speak directly? Call any time.
                   </p>
                   <a
                     href={`tel:${CLINIC_INFO.contact.phone.replace(/[^0-9+]/g, '')}`}
@@ -142,10 +142,8 @@ export default function BookAppointmentPage() {
                 <h3 className="font-display text-21 text-forest-ink mb-4">Talk to Our Team</h3>
                 <div className="space-y-3 font-body text-13 text-forest-ink/80">
                   <div>
-                    <span className="text-forest-ink/60 block">Phone:</span>
-                    <a href={`tel:${CLINIC_INFO.contact.phone.replace(/[^0-9+]/g, '')}`} className="font-medium text-forest hover:underline">
-                      {CLINIC_INFO.contact.phone}
-                    </a>
+                    <span className="text-forest-ink/60 block">Address:</span>
+                    <span className="font-medium text-forest">84 Regent St, Port Fairy VIC 3284</span>
                   </div>
                   <div>
                     <span className="text-forest-ink/60 block">Phone:</span>
@@ -179,7 +177,7 @@ export default function BookAppointmentPage() {
                 <span className="font-body text-13 text-forest block mb-2 font-medium uppercase tracking-wider">Location</span>
                 <h3 className="font-display text-21 text-forest-ink mb-4">Service Area</h3>
                 <p className="font-body text-13 text-forest-ink/80 leading-relaxed mb-3">
-                  We serve  and surrounding areas. Contact us to confirm availability for your property.
+                  Williams Plumbing Port Fairy serves Port Fairy and nearby areas. Call to confirm availability for your property.
                 </p>
               </div>
             </AnimateOnScroll>
